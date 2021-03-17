@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e3e3e3;
+}
+
+.container {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.container-item {
+    margin: 1% 0;
+}
+
+#cat-button {
+    padding: 1%;
+    border: 1px solid black;
+}
+
+#cat-button:hover {
+    background-color:lightblue;
+}

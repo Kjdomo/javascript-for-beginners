@@ -11,6 +11,16 @@ function getCatFact() {
         });
 }
 
+/*
+ * Note: I didn't do step one of the challenge Creating a button in Javascript.
+ * However, if you wanted to know how to do this step the code would look like:
+ * 
+ * const buttonElement = document.createElement('button');
+ * buttonElement.innerHTML = 'Generate Cat Fact';
+ * document.body.appendChild(buttonElement);
+ * 
+ */
+
 
 const buttonElement = document.querySelector('#cat-button');
 

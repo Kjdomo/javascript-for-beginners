@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e3e3e3;
+}
+
+#container {
+    width: 60%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: column;
+    justify-content: space-between;
+}
+
+#container-button {
+    background-color: burlywood;
+    border: 1px solid black;
+    width: 20%;
+    height: 5%;
+}

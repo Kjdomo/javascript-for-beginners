@@ -20,6 +20,11 @@ body {
     justify-content: space-between;
 }
 
+#container-image {
+    width: 100%;
+    height: auto;
+}
+
 #container-button {
     background-color: burlywood;
     border: 1px solid black;
